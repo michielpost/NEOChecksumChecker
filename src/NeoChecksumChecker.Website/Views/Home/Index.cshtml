@@ -1,0 +1,35 @@
+@{
+  ViewData["Title"] = "Checksum Checker";
+}
+
+
+
+<div class="row">
+  <div class="col-md-10">
+    <h1>Checksum Checker</h1>
+
+    <p>
+      When you download something important, like a wallet application, you want to make sure it's not tampered with. So you check if the downloaded file matches the provided checksum.
+      But who checks the checksum? The website hosting the download and checksum might be compromised.
+
+      File owners can now submit checksums to the NEO public blockchain. Users can check the checksum, see if the filename matches and if the user that submitted the checksum is who they think they are.
+    </p>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <form method="get" enctype="multipart/form-data" asp-controller="Home" asp-action="Check">
+    <div class="form-group">
+      <div class="col-md-10">
+        <center>
+          <h2>Check this checksum:</h2>
+          <input type="text" name="checksum" />
+        </center>
+      </div>
+    </div>
+  </form>
+</div>

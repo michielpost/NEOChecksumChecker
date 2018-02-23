@@ -1,0 +1,14 @@
+@model NeoChecksumChecker.Website.Models.ChecksumViewModel
+@{
+  ViewData["Title"] = "Checksum: " + Model.Checksum;
+}
+<h2>@Model.Checksum</h2>
+
+Filename: @Model.ChecksumInfo.FileName<br />
+Added on: @Model.ChecksumInfo.Time<br />
+Added by: @Model.ChecksumInfo.Address<br />
+<br /><br />
+The first checksum added by this address was on <b>@Model.AddressInfo.FirstChecksum</b>. The last time was on <b>@Model.AddressInfo.LastChecksum</b>. This user has a total of <b>@Model.AddressInfo.Total</b> checksums stored on the blockchain<br />
+
+
+
