@@ -41,7 +41,8 @@ Currently there is no way to add new checksums using the website. This functiona
 
 ## Screenshots
 
-TODO: Include Screenshots
+![Homepage](https://raw.githubusercontent.com/michielpost/NEOChecksumChecker/master/screenshots/01_homepage.PNG)  
+![Result](https://raw.githubusercontent.com/michielpost/NEOChecksumChecker/master/screenshots/02_result.PNG)  
 
 ## Roadmap
 
