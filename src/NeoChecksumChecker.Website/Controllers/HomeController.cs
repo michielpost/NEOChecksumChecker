@@ -21,6 +21,16 @@ namespace NeoChecksumChecker.Website.Controllers
       return View();
     }
 
+    public IActionResult Demo(string checksum)
+    {
+      var model = new ChecksumViewModel();
+      model.Checksum = checksum;
+      model.ChecksumInfo = new ChecksumInfo(new byte[] { 1,2,3}, 80000, "neon.exe");
+      model.AddressInfo = new AddressInfo(5000, 10000, 5);
+      return View("Check", model);
+
+    }
+
 
     public IActionResult Check(string checksum)
     {

@@ -11,11 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LunarParser" Version="1.0.28" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
-    <PackageReference Include="Neo.SmartContract.Framework" Version="2.5.2" />
-    <PackageReference Include="Neo.VM" Version="2.0.4" />
-    <PackageReference Include="NeoLux" Version="0.1.1" />
+    <PackageReference Include="LunarParser" Version="1.0.30" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Neo.SmartContract.Framework" Version="2.5.4" />
+    <PackageReference Include="Neo.VM" Version="2.1.0" />
+    <PackageReference Include="NeoLux" Version="0.2.0" />
   </ItemGroup>
 
   <ItemGroup>
